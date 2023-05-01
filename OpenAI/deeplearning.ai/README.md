@@ -1,0 +1,1 @@
+Use OpenAPI credentials for these notebooks, not AzureOpenAI

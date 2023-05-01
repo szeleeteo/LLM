@@ -1,0 +1,36 @@
+# formatting, linting, type checking
+black
+flake8
+isort
+pyright
+
+# general dev
+loguru
+python-dotenv
+pytest
+tenacity
+
+# jupyter
+ipython<8.13 # Python 3.8 is dropped for 8.13 onwards
+jupyterlab
+jupyterlab_code_formatter~=1.5.3 # this works for python 3.8
+jupyterlab-git
+panel
+
+# ml
+matplotlib
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+
+# http
+httpx
+requests
+
+# llm
+langchain
+openai[embeddings,datalib]
+tiktoken
+

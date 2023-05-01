@@ -1,0 +1,9 @@
+[submodule "subrepos/openai/openai-cookbook"]
+	path = subrepos/openai/openai-cookbook
+	url = git@github.com:openai/openai-cookbook.git
+[submodule "subrepos/Azure-Samples/openai"]
+	path = subrepos/Azure-Samples/openai
+	url = git@github.com:Azure-Samples/openai.git
+[submodule "subrepos/microsoft/azure-openai-in-a-day-workshop"]
+	path = subrepos/microsoft/azure-openai-in-a-day-workshop
+	url = git@github.com:microsoft/azure-openai-in-a-day-workshop.git

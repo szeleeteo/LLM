@@ -1,26 +1,27 @@
 # LLM
 
+Compilation of notebooks for learning and experiments for all-things LLM.
+
 ## Setup
 ### Requirements
 1. make
 2. python3.8 (set with pyenv)
 
 ### Steps
-1. Setup environment variables and OpenAPI credentials
+1. Setup environment variables and fill up the OpenAPI credentials
 ```sh
 cp -i .env.template .env
 ```
 2. Run notebooks via Jupyter lab
 ```sh
 $ make lab  # setup all dependencies from scratch and run Jupyterlab
-$ make # show all Makefile recipes
 ```
 
 ## Content
 ### AzureOpenAI
-Notebooks using AzureOpenAI
+- Notebooks using AzureOpenAI
 ### OpenAI
-Notebooks using OpenAI
+- Notebooks using OpenAI
 
 ### Subrepos:
 Reference notebooks from other repos
